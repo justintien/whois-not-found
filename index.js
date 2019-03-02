@@ -11,7 +11,7 @@ const env = process.env
 // argv
 let rootDomain = argv[2] || 'tw'
 let length = argv[3] || 3
-let type = argv[3] || 'en' // 'en' or number
+let type = argv[4] || 'en' // 'en' or number
 
 const whois = require('whois-api');
 
